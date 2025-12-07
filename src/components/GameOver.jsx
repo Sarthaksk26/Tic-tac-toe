@@ -3,7 +3,7 @@ export default function GameOver({winner, onRestart}) {
     <div id="game-over">
       <h2>Game Over!</h2>
       {
-        winner && <p>Player {winner} has won the game!</p>
+        winner && <p>{winner} has won the game!</p>
         }
       {
         !winner && <p>It's a draw!</p>
